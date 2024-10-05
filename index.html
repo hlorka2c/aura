@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="fonts/roboto/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!-- TODO: селфхостинг шрифтов -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__inner-group">
+                    <a href="#" class="header__link">
+                        <img src="images/logo.svg" alt="Logo" class="header__logo">
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__items">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Авторы</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Коллекции</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Сервисы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    Кошелёк
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <h1 class="hero__title">
+                    Площадка
+                    <br>
+                    для реализации
+                    <br>
+                    криптостикеров
+                </h1>
+                <div class="hero__inner-group">
+                    <button class="hero__button hero__button-buy">Купить</button>
+                    <button class="hero__button hero__button-authorship">
+                        Стать автором
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero__stickers-wrap">
+            <img src="images/stickers_hero.png" alt="" class="hero__stickers">
+        </div>
+    </section>
+
+    <section class="auction">
+        <div class="container">
+            <div class="auction__inner">
+                <div class="auction__header">
+                    <h2 class="auction__title">Аукцион</h2>
+                    <div class="auction__live">
+                        <img src="/images/ellipse.svg" alt="" class="auction__live-point">
+                        <span class="auction__live-label">Live auction</span>
+                    </div>
+                </div>
+                <div class="auction__info">
+                    <img src="/images/witcher.png" alt="" class="auction__info-img">
+                    <div class="auction__info-content">
+                        <div class="auction__content-row">
+                            <div class="auction__author">
+                                <img src="images/avatar.png" alt="" class="auction__author-avatar">
+                                <div class="auction__author-name">Serge_VM222</div>
+                            </div>
+                        </div>
+                        <div class="auction__content-row">
+                            <div class="auction__name">
+                                Witcherrr_3 (xml_t5)
+                            </div>
+                        </div>
+                        <div class="auction__content-group">
+                            <div class="auction__content-row">
+                                <div class="auction__bet">
+                                    <p class="auction__bet-label">Ставка:</p>
+                                    <p class="auction__bet-value">
+                                        <span class="bet-value__value">0.10</span>
+                                        <span class="bet-value__currency">ETH</span>
+                                    </p>
+                                    <div class="auction__bet-dollars">
+                                        $<span class="bet-dollars__value">351.24</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="auction__content-row">
+                                <div class="auction__timer">
+                                    <div class="auction__timer-inner">
+                                        <p class="auction__timer-label">Окончание через:</p>
+                                        <div class="timer">
+                                            <div class="timer__hours timer__item">
+                                                <div class="timer__hours-value timer__item-value">01</div>
+                                                <div class="timer__hours-label timer__item-label">Час</div>
+                                            </div>
+                                            <div class="timer__minutes timer__item">
+                                                <div class="timer__minutes-value timer__item-value">48</div>
+                                                <div class="timer__minutes-label timer__item-label">Мин</div>
+                                            </div>
+                                            <div class="timer__seconds timer__item">
+                                                <div class="timer__seconds-value timer__item-value">47</div>
+                                                <div class="timer__seconds-label timer__item-label">Сек</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/clock.png" alt="" class="auction__timer-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auction__content-row">
+                            <div class="auction__button">Сделать ставку</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="other-auctions">
+        <div class="container">
+            <div class="other-auctions__inner">
+                <h3 class="other-auctions__title">Другие аукционы</h3>
+                <div class="other-auctions__items">
+                    <div class="other-auction">
+                        <img src="images/alien.png" alt="" class="other-auction__img">
+                        <div class="other-auction__content">
+                            <div class="other-auction__author">
+                                <img src="images/other-avatar.png" alt="" class="other-auction__author-avatar">
+                                <p class="other-auction__author-name">Frank.Nagval</p>
+                            </div>
+                            <p class="other-auction__name">Alien (green) e_e</p>
+                            <div class="other-auction__price">
+                                <span class="other-auction__price-value">0.02</span>
+
+                                <span class="other-auction__price-currency">ETH</span>
+                            </div>
+                            <div class="other-auction__timer">
+                                <span class="other-auction__timer-hours">03</span>
+                                часа
+                                <span class="other-auction__timer-minutes">25</span>
+                                мин
+                                <span class="other-auction__timer-seconds">23</span>
+                                сек
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-auction">
+                        <img src="images/alien.png" alt="" class="other-auction__img">
+                        <div class="other-auction__content">
+                            <div class="other-auction__author">
+                                <img src="images/other-avatar.png" alt="" class="other-auction__author-avatar">
+                                <p class="other-auction__author-name">Frank.Nagval</p>
+                            </div>
+                            <p class="other-auction__name">Alien (green) e_e</p>
+                            <div class="other-auction__price">
+                                <span class="other-auction__price-value">0.02</span>
+
+                                <span class="other-auction__price-currency">ETH</span>
+                            </div>
+                            <div class="other-auction__timer">
+                                <span class="other-auction__timer-hours">03</span>
+                                часа
+                                <span class="other-auction__timer-minutes">25</span>
+                                мин
+                                <span class="other-auction__timer-seconds">23</span>
+                                сек
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-auction">
+                        <img src="images/alien.png" alt="" class="other-auction__img">
+                        <div class="other-auction__content">
+                            <div class="other-auction__author">
+                                <img src="images/other-avatar.png" alt="" class="other-auction__author-avatar">
+                                <p class="other-auction__author-name">Frank.Nagval</p>
+                            </div>
+                            <p class="other-auction__name">Alien (green) e_e</p>
+                            <div class="other-auction__price">
+                                <span class="other-auction__price-value">0.02</span>
+
+                                <span class="other-auction__price-currency">ETH</span>
+                            </div>
+                            <div class="other-auction__timer">
+                                <span class="other-auction__timer-hours">03</span>
+                                часа
+                                <span class="other-auction__timer-minutes">25</span>
+                                мин
+                                <span class="other-auction__timer-seconds">23</span>
+                                сек
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-auction">
+                        <img src="images/alien.png" alt="" class="other-auction__img">
+                        <div class="other-auction__content">
+                            <div class="other-auction__author">
+                                <img src="images/other-avatar.png" alt="" class="other-auction__author-avatar">
+                                <p class="other-auction__author-name">Frank.Nagval</p>
+                            </div>
+                            <p class="other-auction__name">Alien (green) e_e</p>
+                            <div class="other-auction__price">
+                                <span class="other-auction__price-value">0.02</span>
+
+                                <span class="other-auction__price-currency">ETH</span>
+                            </div>
+                            <div class="other-auction__timer">
+                                <span class="other-auction__timer-hours">03</span>
+                                часа
+                                <span class="other-auction__timer-minutes">25</span>
+                                мин
+                                <span class="other-auction__timer-seconds">23</span>
+                                сек
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-auction">
+                        <img src="images/alien.png" alt="" class="other-auction__img">
+                        <div class="other-auction__content">
+                            <div class="other-auction__author">
+                                <img src="images/other-avatar.png" alt="" class="other-auction__author-avatar">
+                                <p class="other-auction__author-name">Frank.Nagval</p>
+                            </div>
+                            <p class="other-auction__name">Alien (green) e_e</p>
+                            <div class="other-auction__price">
+                                <span class="other-auction__price-value">0.02</span>
+
+                                <span class="other-auction__price-currency">ETH</span>
+                            </div>
+                            <div class="other-auction__timer">
+                                <span class="other-auction__timer-hours">03</span>
+                                часа
+                                <span class="other-auction__timer-minutes">25</span>
+                                мин
+                                <span class="other-auction__timer-seconds">23</span>
+                                сек
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-auctions__button">
+                    Все аукционы
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new-stickers">
+        <div class="container">
+            <div class="new-stickers__inner">
+                <div class="new-stickers__header">
+                    <img src="images/fire.png" alt="" class="new-stickers__fire">
+                    <h3 class="new-stickers__title">Новые стикеры</h3>
+                </div>
+                <div class="new-stickers__slider">
+                    <div class="slider__inner">
+                        <div class="slide first-slide" data-pos="1">
+                            <img src="images/ghost2.png" alt="" class="slider__inner-img">
+                            <img src="images/ghost1.png" alt="" class="slider__inner-img">
+                            <img src="images/parentalAdvisory1.png" alt="" class="slider__inner-img">
+                        </div>
+                        <div class="slide" data-pos="2">
+                            <img src="images/chromeIsDead.png" alt="" class="slider__inner-img">
+                            <img src="images/infinity81.png" alt="" class="slider__inner-img">
+                        </div>
+                        <div class="slide" data-pos="3">
+                            <img src="images/IAMDESIGNERCircle21.png" alt="" class="slider__inner-img">
+                            <img src="images/global30.png" alt="" class="slider__inner-img">
+                            <img src="images/frame26.png" alt="" class="slider__inner-img">
+                        </div>
+                        <div class="slide" data-pos="4">
+                            <img src="images/4.png" alt="" class="slider__inner-img">
+                        </div>
+                    </div>
+                    <div class="slider__nav">
+                        <div class="slider__nav-item slider__nav-item--active" data-pos="1">1</div>
+                        <div data-pos="2" class="slider__nav-item">2</div>
+                        <div data-pos="3" class="slider__nav-item">3</div>
+                        <div data-pos="4" class="slider__nav-item">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mailing">
+        <div class="container">
+            <div class="mailing__inner">
+                <h3 class="mailing__title">Будь в курсе новинок! Подпишись на рассылку!</h3>
+                <form class="mailing__form">
+                    <input type="text" class="mailing__input" placeholder="Имя"></input>
+                    <input type="email" class="mailing__input" placeholder="E-mail"></input>
+                    <button class="mailing__submit" type="submit">Подписаться</button>
+                    <label class="mailing__checkbox-label">
+                        <input type="checkbox" checked>
+                        <div class="mailing__checkbox mailing__checkbox--active">
+                            <img src="images/rectangle44.svg" alt="">
+                        </div>
+                        Согласен на обработку персональных данных
+                    </label>
+                </form>
+            </div>
+            <div class="mailing__img-wrap">
+                <img src="images/Frame29.png" alt="" class="mailing__img">
+            </div>
+        </div>
+    </section>
+    <section class="become-author">
+        <div class="container">
+            <div class="become-author__inner">
+                <div class="become-author__group">
+                    <h3 class="become-author__title">Стать автором</h3>
+                    <p class="become-author__focus become-author__text">Если ты художник или стремишься им стать —
+                        добро пожаловать к нам!
+                    </p>
+                    <p class="become-author__text">Отправь нам от трёх до пяти своих работ и напиши свой ник
+                        в телеграме. Если наши кураторы решат, что нам по пути, то мы обязательно свяжемся с тобой и
+                        обговорим условия сотрудничества! <span class="become-author__focus">Удачи!</span>
+                    </p>
+                    <img src="images/Frame31.png" alt="" class="become-author__img">
+                </div>
+                <form class="become-author__group">
+                    <label class="become-author__input become-author__input-file">
+                        <input type="file" multiple name="" id="files" accept=".png, .jpeg, .jpg">
+                        <div class="become-author__input-img">
+                            <img src="images/Ellipse3.svg" alt="" class="become-author__input-circle">
+                            <img src="images/+.svg" alt="" class="become-author__input-plus">
+                            <img src="images/Group 1249.png" class="become-author__input-active" alt="">
+                        </div>
+                        <p class="become-author__input-label">
+                            Прикрепить работы (.jpeg / .png)
+                        </p>
+                    </label>
+                    <input type="text" class="become-author__input" placeholder="@telegram_nickname">
+                    <button type="submit" class="become-author__submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
